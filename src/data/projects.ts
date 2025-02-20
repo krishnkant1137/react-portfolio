@@ -2,85 +2,70 @@ import { ProjectItem } from "../types";
 
 export const projectsData: ProjectItem[] = [
   {
-    title: "Hirrd",
+    title: "CRM System",
     description:
-      "A modern job portal application connecting talent with opportunities",
-    image: "hirrd.png",
-    tech: ["React", "Node.js", "MongoDB", "Express"],
-    github: "https://youtu.be/2XF-HgauItk?si=xnuz7_gpUVBBgdW6",
-    live: "https://youtu.be/2XF-HgauItk?si=xnuz7_gpUVBBgdW6",
+      "A customer relationship management (CRM) system to streamline business operations.",
+    image: "crm.png",
+    tech: ["React", "Node.js", "MongoDB", "Express.js"],
+    github: "https://github.com/yourusername/crm-project",
+    live: " http://13.234.29.181/",
     details: {
       problem:
-        "Traditional job boards lack modern features and user experience",
+        "Managing customer data and interactions manually is inefficient for businesses.",
       solution:
-        "Built a streamlined job portal with real-time updates and intelligent matching",
+        "Built a CRM system with role-based access, analytics, and automation to improve efficiency.",
       features: [
-        "Real-time job notifications",
-        "AI-powered job matching",
-        "Advanced search filters",
-        "Application tracking system",
+        "Role-based authentication",
+        "Customer & lead management",
+        "Automated reports & analytics",
+        "Task assignment and tracking",
       ],
-      impact: "Helping thousands of job seekers find their dream positions",
+      impact:
+        "Increased business efficiency by automating customer relationship processes.",
     },
   },
   {
-    title: "Schedulrr",
-    description: "A Calendly clone for seamless meeting scheduling",
-    image: "schedulrr.png",
-    tech: ["Next.js", "TypeScript", "Prisma", "tRPC"],
-    github: "https://youtu.be/glAC7d-TYSM?si=KW5Wrdeh5uVPpu7c",
-    live: "https://youtu.be/glAC7d-TYSM?si=KW5Wrdeh5uVPpu7c",
+    title: "Airbnb Clone",
+    description:
+      "A property rental platform allowing users to list, search, and book accommodations.",
+    image: "airbnb-clone.png",
+    tech: ["EJS", "Node.js", "MongoDB", "Express.js", "CSS"],
+    github: "https://github.com/yourusername/airbnb-clone",
+    live: "https://delta-project-2-4eek.onrender.com/listings",
     details: {
-      problem: "Complex meeting scheduling across time zones",
+      problem:
+        "Finding and managing short-term rental properties is often complicated and lacks transparency.",
       solution:
-        "Created an intuitive scheduling platform with automated time zone handling",
+        "Built a rental platform with user authentication, reviews, and interactive map search.",
       features: [
-        "Multiple calendar integration",
-        "Custom availability rules",
-        "Automated reminders",
-        "Team scheduling",
+        "User authentication (Login/Signup)",
+        "Add, edit, and delete property listings",
+        "Ratings & reviews system",
+        "Interactive map search using Leaflet.js",
       ],
-      impact: "Reduced meeting scheduling time by 80% for users",
+      impact: "Provided an easy-to-use platform for property rentals with transparent user reviews.",
     },
   },
   {
-    title: "Zcrum",
-    description: "A Jira-inspired project management solution",
-    image: "zcrum.png",
-    tech: ["React", "Redux", "Node.js", "PostgreSQL"],
-    github: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
-    live: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
+    title: "Portfolio Website",
+    description:
+      "An interactive and responsive portfolio to showcase projects, skills, and experience.",
+    image: "portfolio.png",
+    tech: ["React", "Tailwind CSS"],
+    github: "https://github.com/yourusername/portfolio",
+    live: "https://yourportfolio.live",
     details: {
-      problem: "Need for a simplified project management tool for small teams",
+      problem:
+        "Developers need a professional way to showcase their skills and projects to recruiters.",
       solution:
-        "Developed a streamlined alternative to complex enterprise tools",
+        "Designed a modern portfolio with animations, dark/light mode, and project highlights.",
       features: [
-        "Kanban and Scrum boards",
-        "Sprint planning",
-        "Time tracking",
-        "Performance analytics",
+        "Dark/Light mode toggle",
+        "Smooth animations and interactive UI",
+        "Project showcase with GitHub links",
+        "Downloadable resume section",
       ],
-      impact: "Helping teams increase productivity by 40%",
-    },
-  },
-  {
-    title: "Reflct",
-    description: "A minimalist journaling application",
-    image: "reflct.png",
-    tech: ["Next.js", "Tailwind CSS", "Supabase"],
-    github: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
-    live: "https://youtu.be/R5dBYINNouY?si=9x7lSDuqwJ0ojtIg",
-    details: {
-      problem: "Digital journaling apps are often cluttered and complex",
-      solution:
-        "Created a clean, focused writing experience with powerful features",
-      features: [
-        "Markdown support",
-        "Daily prompts",
-        "Mood tracking",
-        "Privacy-focused design",
-      ],
-      impact: "Helping users maintain consistent journaling habits",
+      impact: "Helped in personal branding and increased visibility for job opportunities.",
     },
   },
 ];

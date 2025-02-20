@@ -2,45 +2,38 @@ import { TimelineItem } from '../types';
 
 export const timelineData: TimelineItem[] = [
   {
-    year: '2024 - Present',
-    title: 'Founder',
-    company: 'RoadsideCoder',
-    description: 'Teacher on YouTube and Freelance Developer',
+    year: '2025 - Present',
+    title: 'MERN Stack Developer (Job Seeking)',
+    company: 'Open to Work',
+    description: 'Actively looking for opportunities in MERN stack development.',
     icon: 'work'
   },
   {
-    year: '2021 - 2024',
-    title: 'Software Engineer',
-    company: 'Cars24',
-    description: 'Full Stack Development with React, Node.js, and AWS',
+    year: 'Aug 2024 - Oct 2024',
+    title: 'MERN Stack Developer Intern',
+    company: 'Instadot Analytics, Indore',
+    description: 'Worked on a CRM project, focusing on frontend development using React.js.',
     icon: 'work'
   },
   {
-    year: '2021',
-    title: 'Frontend Developer',
-    company: 'Incredible.dev',
-    description: 'Building modern web applications with React and TypeScript',
-    icon: 'work'
-  },
-  {
-    year: '2021',
-    title: 'DevOps Engineer',
-    company: 'BNP Paribas',
-    description: 'Managing cloud infrastructure and CI/CD pipelines',
-    icon: 'work'
-  },
-  {
-    year: '2019 - 2021',
-    title: 'Master of Computer Applications',
-    company: 'VIT Vellore',
-    description: 'Focused on advanced computing and software development',
+    year: '2024',
+    title: 'Full Stack Web Development',
+    company: 'PW Skills & Apna College',
+    description: 'Completed online full-stack development courses covering MERN stack.',
     icon: 'education'
   },
   {
-    year: '2016 - 2019',
-    title: 'Bachelor of Computer Applications',
-    company: 'VSICS',
-    description: 'Foundation in computer science and programming',
+    year: '2023',
+    title: 'C & C++ Training',
+    company: 'Samyak Coaching Classes',
+    description: 'Learned programming fundamentals and problem-solving in C & C++.',
+    icon: 'education'
+  },
+  {
+    year: '2021 - 2025',
+    title: 'Bachelor of Technology (CSE)',
+    company: 'sri aurobindo institute of technology ',
+    description: 'Building a strong foundation in computer science and software development.',
     icon: 'education'
   }
 ];
