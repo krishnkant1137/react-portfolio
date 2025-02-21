@@ -27,25 +27,19 @@ export default function About() {
             variants={fadeInUp}
           >
             <img
-              src="/piyush.png"
-              alt="Piyush Agarwal"
+              src="/krishna.1.jpg"
+              alt="krishnkant malviya"
               className="w-full h-full object-cover rounded-2xl"
             />
           </motion.div>
 
           <motion.div className="space-y-6" variants={staggerContainer}>
             <motion.p className="text-lg text-gray-600" variants={fadeInUp}>
-              Hi, I'm Piyush Agarwal, a passionate Full Stack Developer and
-              educator. I create content on YouTube through my channel
-              RoadsideCoder, where I share my knowledge and experience with the
-              developer community.
+              Hi, I'm Krishnkant Malviya, a passionate MERN Stack Developer.
             </motion.p>
 
             <motion.p className="text-lg text-gray-600" variants={fadeInUp}>
-              With extensive experience in modern web technologies and a strong
-              foundation in both frontend and backend development, I help
-              businesses build scalable solutions and mentor aspiring developers
-              to achieve their goals.
+            I enjoy building interactive and scalable web applications using modern technologies like React, Node.js, and MongoDB. I recently completed an internship where I worked on a CRM project, and I’m always eager to learn and improve. Looking forward to growing as a developer and contributing to impactful projects!
             </motion.p>
 
             <motion.div
@@ -53,13 +47,13 @@ export default function About() {
               variants={fadeInUp}
             >
               <div className="p-4 bg-gray-50 rounded-lg">
-                <h3 className="font-bold text-xl text-gray-900">3+</h3>
+                <h3 className="font-bold text-xl text-gray-900">.3+</h3>
                 <p className="text-gray-600">Years Experience</p>
               </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
+              {/* <div className="p-4 bg-gray-50 rounded-lg">
                 <h3 className="font-bold text-xl text-gray-900">125K+</h3>
                 <p className="text-gray-600">YouTube Subscribers</p>
-              </div>
+              </div> */}
             </motion.div>
           </motion.div>
         </motion.div>
