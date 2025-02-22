@@ -27,7 +27,7 @@ export default function About() {
             variants={fadeInUp}
           >
             <img
-              src="/krishna.1.jpg"
+              src="/krishna.3.png"
               alt="krishnkant malviya"
               className="w-full h-full object-cover rounded-2xl"
             />
