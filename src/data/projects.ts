@@ -53,7 +53,7 @@ export const projectsData: ProjectItem[] = [
     image: "portfolio.png",
     tech: ["React", "Tailwind CSS"],
     github: "https://github.com/yourusername/portfolio",
-    live: "https://yourportfolio.live",
+    live: "https://react-portfolio-git-master-krishnkants-projects.vercel.app/",
     details: {
       problem:
         "Developers need a professional way to showcase their skills and projects to recruiters.",
