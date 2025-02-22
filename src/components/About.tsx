@@ -26,11 +26,13 @@ export default function About() {
             className="aspect-square rounded-2xl overflow-hidden"
             variants={fadeInUp}
           >
-            <img
-              src="/krishna.3.png"
-              alt="krishnkant malviya"
-              className="w-full h-full object-cover rounded-2x1"
-            />
+<img
+  src="/krishna.4.png"
+  alt="krishnkant malviya"
+  className="w-full h-full object-cover rounded-2xl transform scale-90"
+/>
+
+
           </motion.div>
 
           <motion.div className="space-y-6" variants={staggerContainer}>
