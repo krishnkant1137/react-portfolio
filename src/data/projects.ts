@@ -8,7 +8,7 @@ export const projectsData: ProjectItem[] = [
     image: "crm.png",
     tech: ["React", "Node.js", "MongoDB", "Express.js"],
     github: "https://github.com/yourusername/crm-project",
-    live: " http://13.234.29.181/",
+    live: "http://3.7.253.14//",
     details: {
       problem:
         "Managing customer data and interactions manually is inefficient for businesses.",
