@@ -29,7 +29,7 @@ export default function About() {
             <img
               src="/krishna.3.png"
               alt="krishnkant malviya"
-              className="w-full h-full object-contain rounded-2xl"
+              className="w-full h-full object-cover rounded-2x1"
             />
           </motion.div>
 
@@ -39,11 +39,7 @@ export default function About() {
             </motion.p>
 
             <motion.p className="text-lg text-gray-600" variants={fadeInUp}>
-              I enjoy building interactive and scalable web applications using
-              modern technologies like React, Node.js, and MongoDB. I recently
-              completed an internship where I worked on a CRM project, and I’m
-              always eager to learn and improve. Looking forward to growing as a
-              developer and contributing to impactful projects!
+            I enjoy building interactive and scalable web applications using modern technologies like React, Node.js, and MongoDB. I recently completed an internship where I worked on a CRM project, and I’m always eager to learn and improve. Looking forward to growing as a developer and contributing to impactful projects!
             </motion.p>
 
             <motion.div
