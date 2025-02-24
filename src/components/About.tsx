@@ -49,8 +49,8 @@ export default function About() {
               variants={fadeInUp}
             >
               <div className="p-4 bg-gray-50 rounded-lg">
-                <h3 className="font-bold text-xl text-gray-900"></h3>
-                <p className="text-gray-600">Fresure</p>
+                <h3 className="font-bold text-xl text-gray-900">2.5 Monsths</h3>
+                <p className="text-gray-600">Fresher</p>
               </div>
               {/* <div className="p-4 bg-gray-50 rounded-lg">
                 <h3 className="font-bold text-xl text-gray-900">125K+</h3>
