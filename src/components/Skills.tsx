@@ -23,11 +23,6 @@ const skills = [
     icon: Code,
     skills: ['JavaScript', 'c,c++'],
   },
-  {
-    category: 'Design',
-    icon: Palette,
-    skills: ['Figma', 'UI/UX', 'Responsive Design'],
-  },
 ];
 
 export default function Skills() {
