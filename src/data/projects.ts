@@ -7,7 +7,7 @@ export const projectsData: ProjectItem[] = [
       "A customer relationship management (CRM) system to streamline business operations.",
     image: "crm.png",
     tech: ["React", "Node.js", "MongoDB", "Express.js"],
-    github: "https://github.com/yourusername/crm-project",
+    github: "https://github.com/krishnkant1137/crmida",
     live: "http://3.7.253.14//",
     details: {
       problem:
@@ -30,7 +30,7 @@ export const projectsData: ProjectItem[] = [
       "A property rental platform allowing users to list, search, and book accommodations.",
     image: "airbnb-clone.png",
     tech: ["EJS", "Node.js", "MongoDB", "Express.js", "CSS"],
-    github: "https://github.com/yourusername/airbnb-clone",
+    github: "https://github.com/krishnkant1137/delta-project",
     live: "https://delta-project-2-4eek.onrender.com/listings",
     details: {
       problem:
@@ -52,7 +52,7 @@ export const projectsData: ProjectItem[] = [
       "An interactive and responsive portfolio to showcase projects, skills, and experience.",
     image: "portfolio.png",
     tech: ["React", "Tailwind CSS"],
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/krishnkant1137/react-portfolio",
     live: "https://react-portfolio-lyart-delta.vercel.app/",
     details: {
       problem:
